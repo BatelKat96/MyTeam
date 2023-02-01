@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+
+    color: $clr1;
+    font-size: rem(15px);
+    margin: auto;
+    font-family: livvic-semi-bold;
+    max-height: 100vh;
+}
+
+.app {
+    height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: livvic-bold;
+    margin: 0;
+}
+
+h1 {
+    &.h1-big {
+        font-size: rem(100px);
+        line-height: rem(100px);
+    }
+
+    &.h1-small {
+        font-size: rem(64px);
+        line-height: rem(56px);
+    }
+}
+
+h2 {
+    font-size: rem(48px);
+    line-height: rem(48px);
+}
+
+h3 {
+    font-size: rem(18px);
+    line-height: rem(28px);
+}
+
+img {
+    // width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+// button {
+//     width: 153px;
+//     height: 48px;
+//     border-radius: 28px;
+//     font-family: inherit;
+//     font-size: rem(18px);
+
+// }

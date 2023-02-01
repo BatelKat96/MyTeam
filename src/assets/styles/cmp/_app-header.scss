@@ -1,0 +1,42 @@
+.header-section {
+    background-color: $bgc1;
+
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-block-start: 48px;
+        // margin-block-end: 133px;
+    }
+
+    .nav-section {
+        display: flex;
+        align-items: center;
+
+        .logo {
+            margin-inline-end: 80px;
+            cursor: pointer;
+
+            .logo-img {
+                object-fit: cover;
+            }
+        }
+
+        nav {
+            ul {
+                display: flex;
+            }
+
+            li {
+                margin-inline-end: 40px;
+                cursor: pointer;
+                font-size: rem(18px);
+            }
+        }
+    }
+
+    .btn-contact-us {
+        @include btn;
+        border: $clr1 2px solid;
+    }
+}
