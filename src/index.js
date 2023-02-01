@@ -12,6 +12,6 @@ root.render(
     <RootCmp />
   </Router>
 
-);
+)
 
 // serviceWorkerRegistration.register();
