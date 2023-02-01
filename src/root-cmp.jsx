@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router'
 import { AppHeader } from './cmp/app-header';
 import { HomePage } from './pages/home-page';
 
-export function App() {
+export function RootCmp() {
   return (
     <section className="app">
       <main className='main-container'>
@@ -18,5 +18,3 @@ export function App() {
     </section>
   );
 }
-
-// export default App;
