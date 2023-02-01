@@ -10,7 +10,6 @@ export function RootCmp() {
       <main className='main-container'>
         <AppHeader />
         <Routes>
-
           <Route element={<HomePage />} path="/" />
         </Routes>
       </main>

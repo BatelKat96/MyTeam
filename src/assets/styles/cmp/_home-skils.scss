@@ -1,0 +1,39 @@
+.home-skils-section {
+    background-color: $bgc3;
+    height: 684px;
+
+    .home-skils-container {
+        display: grid;
+        grid-template-columns: 4fr 5fr;
+        margin-block-start: 198px;
+        gap: 132px;
+    }
+
+
+    .skill-list {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .skill-title {
+        color: $clr2;
+        font-size: rem(18px);
+    }
+
+    .skill-txt {
+        line-height: 25px;
+    }
+
+    .skill-img-container {
+        margin-inline-end: 20px;
+        height: 72px;
+        width: 72px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+
+}
